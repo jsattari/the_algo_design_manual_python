@@ -16,3 +16,7 @@ repos:
     rev: 0b037c2
     hooks:
       - id: mypy
+  - repo: https://github.com/PyCQA/flake8
+    rev: 5e99de7
+    hooks:
+      - id: flake8
